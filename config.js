@@ -8,6 +8,6 @@ module.exports = {
   website: "",
   email: "scat.liff.tom@gmail.com",
   git: "tscatliff/lolin32-v1.0.0-board/",
-  image: "/static/display.jpg",
+  image: "/static/s-l300.jpg",
   version: "1.0.0",
 };
