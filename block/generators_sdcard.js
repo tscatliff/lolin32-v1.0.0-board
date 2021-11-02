@@ -9,7 +9,7 @@ module.exports = function(Blockly) {
   #EXTINC#include <mySD.h>#END
   #VARIABLEFile sdcard;#END
   #SETUP
-    if (!SD.begin(T4_SD_CS, T4_SD_MOSI, T4_SD_MISO, T4_SD_CLK)) {
+    if (!SD.begin()) {
       Serial.println("initialization failed!");
       return;
     }
